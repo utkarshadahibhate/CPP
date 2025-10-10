@@ -10,5 +10,5 @@ int main(){
     cin>>b;
     p = pow(a,b);
     cout<<"Base raise to the power is : "<<p<<endl;
-
+    return p;
 }
