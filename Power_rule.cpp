@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int a,b,p;
+    float a,b,p;
     cout<<"Enter a base number : ";
     cin>>a;
     cout<<"Enter raise to number : ";
