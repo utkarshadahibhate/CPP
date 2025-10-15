@@ -45,23 +45,23 @@ int main()
 
 // ----------------------------------------------------------------------------------------------------
 // Nested if else
-// int age,weight;
-// cout<<"Enter your age first"<<endl;
-// cin>>age;
-// cout<<"Now enter your weight "<<endl;
-// cin>>weight;
+double age,weight;
+cout<<"Enter your age first"<<endl;
+cin>>age;
+cout<<"Now enter your weight "<<endl;
+cin>>weight;
 
-// if(age>18)
-// {
-//     if(weight>50)
-//     {
-//         cout<<"You are eligible to donate blood!"<<endl;
-//     }else
-//     {
-//         cout<<"Weight is less than 50, not eligible to donate blood"<<endl;
-//     }
+if(age>18)
+{
+    if(weight>50)
+    {
+        cout<<"You are eligible to donate blood!"<<endl;
+    }else
+    {
+        cout<<"Weight is less than 50, not eligible to donate blood"<<endl;
+    }
     
-// }
+}
 // -----------------------------------------------------------------------------------------------------
 // Greater number code
 
@@ -86,17 +86,17 @@ int main()
 // --------------------------------------------------------------------------------------------------------
 // Another way of greater than code
 
-int a,b,c;
-cout<<"Enter integer values for a,b,c"<<endl;
-cin>>a>>b>>c;
+// int a,b,c;
+// cout<<"Enter integer values for a,b,c"<<endl;
+// cin>>a>>b>>c;
 
-if(a>b && a>c){
-    cout<<"A is Greater"<<endl;
-}else if(b>a && b>c){
-    cout<<"B is Greater"<<endl;
-}else{
-    cout<<"C is Greater"<<endl;
-}
+// if(a>b && a>c){
+//     cout<<"A is Greater"<<endl;
+// }else if(b>a && b>c){
+//     cout<<"B is Greater"<<endl;
+// }else{
+//     cout<<"C is Greater"<<endl;
+// }
 
 
 }
