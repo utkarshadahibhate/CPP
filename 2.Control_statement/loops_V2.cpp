@@ -26,14 +26,17 @@ int main(){
 
 
 // To print alphabets in matrix form
-int i=1,j=1;
+int i=1,j;
 
-while(i<=5){
-    while(j<=5){
-        cout<<"*";
+while(i<=4){
+    j=1;
+    while(j<=1){
+        cout<<" * ";
         j++;
     }
-}   i++;
+    cout<<endl;
+    i++;
+}
 
 }
 
