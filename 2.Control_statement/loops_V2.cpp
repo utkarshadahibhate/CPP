@@ -26,19 +26,91 @@ int main(){
 
 
 // To print alphabets in matrix form
-int i=1,j;
+// int i=1,j;
 
-while(i<=4){
+// while(i<=4){
+//     j=1;
+//     while(j<=4){
+//         cout<<" * ";
+//         j++;
+//     }
+//     cout<<endl;
+//     i++;
+// }
+
+// To print alphabets in matrix form
+
+// int i=1,j;
+// char letter = 'A';
+
+// while(i<=4){
+//     j=1;
+//     while(j<=4){
+//         cout<<letter<<" ";
+//         j++;
+//     }
+//     cout<<endl;
+//     i++;
+//     letter++;
+// }
+// A A A A 
+// B B B B 
+// C C C C 
+// D D D D
+
+// int i=1,j;
+// char letter = 'A';
+
+// while(i<=4){
+//     j=1;
+//     while(j<=4){
+//         cout<<letter<<" ";
+//         letter++;
+//         j++;
+//     }
+//     cout<<endl;
+//     i++;
+    // letter++;
+// }
+// A B C D 
+// E F G H 
+// I J K L 
+// M N O P
+
+int i=1,j;
+char letter = 'A';
+
+while(i<=10){
     j=1;
-    while(j<=1){
-        cout<<" * ";
+    while(j<=i){
+        cout<<letter<<" ";
+        letter++;
         j++;
     }
     cout<<endl;
     i++;
+    // letter++;
 }
 
+
 }
 
+// A 
+// B C 
+// D E F 
+// G H I J 
+// K L M N O 
+// P Q R S T U 
+// V W X Y Z [ \ 
 
+// A 
+// B C 
+// D E F 
+// G H I J 
+// K L M N O 
+// P Q R S T U 
+// V W X Y Z [ \ 
+// ] ^ _ ` a b c d 
+// e f g h i j k l m 
+// n o p q r s t u v w 
 
