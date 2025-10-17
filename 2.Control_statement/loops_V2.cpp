@@ -77,19 +77,44 @@ int main(){
 // I J K L 
 // M N O P
 
-int i=1,j;
-char letter = 'A';
+// int i=1,j;
+// char letter = 'A';
 
-while(i<=10){
+// while(i<=10){
+//     j=1;
+
+//     if()
+//     while(j<=i){
+//         cout<<letter<<" ";
+//         letter++;
+//         j++;
+//     }
+//     cout<<endl;
+//     i++;
+//     // letter++;
+// }
+
+
+int i=1;
+int j=1;
+char letter = 'A';
+while(i<=7){
     j=1;
     while(j<=i){
-        cout<<letter<<" ";
-        letter++;
-        j++;
+        if(letter<='Z'){
+            cout<<letter<<" ";
+            letter++;
+            j++;
+        }
+        else{
+            cout<<"_ ";
+            letter++;
+            j++;
+
+        }
     }
     cout<<endl;
     i++;
-    // letter++;
 }
 
 
